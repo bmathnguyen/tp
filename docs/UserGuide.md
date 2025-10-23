@@ -28,7 +28,7 @@ BizBook is a **desktop app for managing job applications, optimized for use via 
 
    * `list` : Lists all internship applications.
 
-   * `add n/Google i/Technology a/SWE Intern t/Backend microservices e/careers@google.com s/Saved d/2024-12-31` : Adds a Google application.
+   * `add n/Google i/Technology a/SWE Intern t/Backend microservices e/careers@google.com s/Saved d/2024-11-30` : Adds a Google application.
 
    * `edit 1 s/Interviewing` : Edits the 1st application's status to "Interviewing".
 
@@ -78,10 +78,10 @@ Format: `add n/COMPANY_NAME i/INDUSTRY a/JOB_TYPE t/DESCRIPTION e/EMAIL s/STATUS
 Notes:
 - `INDUSTRY` must be one of: Technology, Finance, Consulting, Healthcare, Marketing, Operations, Graphic Design
 - `STATUS` must be one of: Saved, Applied, Interviewing, Offer, Rejected.
-- `DEADLINE` must be in the format YYYY-MM-DD (e.g., 2024-12-31)
+- `DEADLINE` must be in the format YYYY-MM-DD (e.g., 2024-11-30)
 
 Examples:
-* `add n/Google i/Technology a/SWE Intern t/Backend microservices e/careers@google.com s/Saved d/2024-12-31`
+* `add n/Google i/Technology a/SWE Intern t/Backend microservices e/careers@google.com s/Saved d/2024-11-30`
 * `add n/DBS Bank i/Finance a/Data Analyst Intern t/Analytics team e/internships@dbs.com s/Applied d/2025-01-15`
 
 ### Listing all applications : `list`
@@ -101,7 +101,7 @@ Notes:
 * At least one field to edit must be provided.
 * Existing values will be overwritten by the new inputs.
 * Input for `INDUSTRY` and `STATUS` is case-insensitive (e.g., `i/technology` and `s/applied` are accepted).
-* `DEADLINE` must be in the format YYYY-MM-DD (e.g., 2024-12-31)
+* `DEADLINE` must be in the format YYYY-MM-DD (e.g., 2024-11-30)
 
 Examples:
 * `edit 1 n/Google Singapore`
@@ -171,7 +171,7 @@ _Details coming soon ..._
 
 Action | Format, Examples
 --------|------------------
-**Add** | `add n/COMPANY_NAME i/INDUSTRY a/JOB_TYPE t/DESCRIPTION e/EMAIL s/STATUS d/DEADLINE` <br> e.g., `add n/Google i/Technology a/SWE Intern t/Backend microservices e/careers@google.com s/Saved d/2024-12-31`
+**Add** | `add n/COMPANY_NAME i/INDUSTRY a/JOB_TYPE t/DESCRIPTION e/EMAIL s/STATUS d/DEADLINE` <br> e.g., `add n/Google i/Technology a/SWE Intern t/Backend microservices e/careers@google.com s/Saved d/2024-11-30`
 **Clear** | `clear`
 **Delete** | `delete INDEX`<br> e.g., `delete 3`
 **List** | `list`
