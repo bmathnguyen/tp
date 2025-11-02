@@ -23,8 +23,10 @@ public class SampleDataUtil {
     public static InternshipApplication[] getSamplePersons() {
         return new InternshipApplication[] {
             new InternshipApplication(new CompanyName("XYZ PTE LTD"), new Industry("Finance"),
-                    new JobType("SWE Intern"), new Description("Need to be proficient in c++"),
-                    new ApplicationStatus("Saved"), new Email("XYZ@gmail.com"), new Deadline("2024-12-31"))
+                    new JobType("SWE Intern"),
+                    new Description("Need to be proficient in c++"),
+                    new ApplicationStatus("Saved"), new Email("XYZ@gmail.com"),
+                    new Deadline("2024-12-31")),
         };
     }
 
